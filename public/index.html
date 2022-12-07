@@ -9,13 +9,14 @@
 		<link rel="icon" href="assets/img/favicon.png" />
 
 		<!-- Google Fonts -->
-		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Montserrat:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" />
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" />
 
 		<!-- Vendor CSS Files -->
 		<link href="assets/vendor/aos/aos.css" rel="stylesheet" />
 		<link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
 		<link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet" />
 		<link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet" />
+
 		<!-- <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet" /> -->
 		<link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet" />
 		<link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
@@ -38,14 +39,15 @@
 			<div class="container d-flex align-items-center justify-content-between">
 				<div class="logo">
 					<h1>
+						<a href="index.html"><img src="assets/img/favicon.png" alt="" class="img-fluid" /></a>
 						<a href="index.html"><span>동네랑</span></a>
 					</h1>
 				</div>
 
 				<nav id="navbar" class="navbar">
 					<ul>
-						<li><a class="nav-link scrollto active" href="#home">Home</a></li>
-						<li><a class="nav-link scrollto" href="#about">About</a></li>
+						<li><a class="nav-link scrollto" href="#home">Home</a></li>
+						<li><a class="nav-link scrollto" href="#details">About</a></li>
 						<li><a class="nav-link scrollto" href="#contact">Contact</a></li>
 					</ul>
 					<i class="bi bi-list mobile-nav-toggle"></i>
@@ -58,18 +60,21 @@
 		<!-- ======================== -->
 		<section id="home">
 			<div class="container">
-				<div class="row justify-content-between">
-					<div class="col-lg-7 pt-5 pt-lg-0 order-2 order-lg-1 d-flex align-items-center">
+				<div class="row justify-content-between px-3">
+					<div class="col-lg-7 pt-5 pt-lg-0 order-2 order-lg-1 d-flex align-items-center home-txt">
 						<div data-aos="zoom-out">
-							<h1>Build Your Landing Page With <span>동네랑</span></h1>
-							<h2>We are team of talented designers making websites with Bootstrap</h2>
-							<div class="text-center text-lg-start">
-								<a href="#about" class="btn-get-started scrollto">Get Started</a>
+							<h1>우리 동네의 모든 공공소식<br /><span>동네랑</span></h1>
+							<h2>여러 홈페이지에 흩어져 있는 시민을 위한 각종 소식들, <br />내가 필요한 정보만 쏙쏙- 한 눈에 볼 수 있는 <strong>동네랑</strong>을 이용해 보세요.</h2>
+							<div class="text-lg-start">
+								<a href="https://apps.apple.com/kr/app/%EB%8F%99%EB%84%A4%EB%9E%91/id6444590791" class="btn-get-started scrollto">iOS 다운로드</a>
+							</div>
+							<div class="text-lg-start last-btn">
+								<a href="https://play.google.com/store/apps/details?id=com.dongnerang.com.dongnerang" class="btn-get-started scrollto">안드로이드 다운로드</a>
 							</div>
 						</div>
 					</div>
 					<div class="col-lg-4 order-1 order-lg-2 home-img" data-aos="zoom-out" data-aos-delay="300">
-						<img src="assets/img/detail1.png" class="img-fluid animated" alt="" />
+						<img src="assets/img/homeImg.png" class="img-fluid animated" alt="" />
 					</div>
 				</div>
 			</div>
@@ -80,51 +85,72 @@
 		<!-- ======================== -->
 		<section id="details" class="details">
 			<div class="container">
-				<div class="row content">
-					<div class="col-md-4" data-aos="fade-right">
+				<div class="row content px-3">
+					<div class="col-md-4 px-3" data-aos="fade-right">
 						<img src="assets/img/detail1.png" class="img-fluid" alt="" />
 					</div>
-					<div class="col-md-8 pt-4" data-aos="fade-up">
-						<h3>Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.</h3>
-						<p class="fst-italic">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-						<ul>
-							<li><i class="bi bi-check"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
-							<li><i class="bi bi-check"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
-							<li><i class="bi bi-check"></i> Iure at voluptas aspernatur dignissimos doloribus repudiandae.</li>
-							<li><i class="bi bi-check"></i> Est ipsa assumenda id facilis nesciunt placeat sed doloribus praesentium.</li>
-						</ul>
-						<p>Voluptas nisi in quia excepturi nihil voluptas nam et ut. Expedita omnis eum consequatur non. Sed in asperiores aut repellendus. Error quisquam ab maiores. Quibusdam sit in officia</p>
+					<div class="col-md-8 px-5" data-aos="fade-up">
+						<h3>공공소식을 한눈에</h3>
+						<p>지역 별 공공소식을 모아서 확인할 수 있습니다.</p>
+						<p>시민 지원사업, 교육, 축제까지 관심사를 설정하고 나에게 딱 맞는 동네 활동을 시작해 보세요!</p>
 					</div>
 				</div>
 
-				<div class="row content">
+				<div class="row content px-3">
+					<div class="col-md-4 px-3 order-1 order-md-2" data-aos="fade-left">
+						<img src="assets/img/detail3.png" class="img-fluid" alt="" />
+					</div>
+					<div class="col-md-8 px-5 order-2 order-md-1" data-aos="fade-up">
+						<h3>맞춤형 푸시 알림</h3>
+						<p>다양한 소식을 남발하는 공공앱과 달리 관심사, 개개인의 프로필 정보를 기반으로 알맞은 공공소식을 전달해 드립니다.</p>
+						<ul>
+							<li><i class="bi bi-check"></i> 관심 키워드와 개인 정보를 설정하고 맞춤형 소식 알림을 받을 수 있습니다.</li>
+						</ul>
+					</div>
+				</div>
+
+				<div class="row content px-3">
+					<div class="col-md-4 px-3" data-aos="fade-right">
+						<img src="assets/img/detail2.png" class="img-fluid" alt="" />
+					</div>
+					<div class="col-md-8 px-5" data-aos="fade-up">
+						<h3>저장과 공유 기능</h3>
+						<p>관심 있는 공공소식을 저장하고 지인들에게 공유해 보세요!<br />저장한 공공소식은 마이페이지에서 확인할 수 있답니다.</p>
+					</div>
+				</div>
+
+				<!-- 
+				# 공공공간 숨김처리
+				<div class="row content px-3">
 					<div class="col-md-4 order-1 order-md-2" data-aos="fade-left">
 						<img src="assets/img/detail2.png" class="img-fluid" alt="" />
 					</div>
-					<div class="col-md-8 pt-5 order-2 order-md-1" data-aos="fade-up">
-						<h3>Corporis temporibus maiores provident</h3>
-						<p class="fst-italic">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-						<p>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
-						<p>Inventore id enim dolor dicta qui et magni molestiae. Mollitia optio officia illum ut cupiditate eos autem. Soluta dolorum repellendus repellat amet autem rerum illum in. Quibusdam occaecati est nisi esse. Saepe aut dignissimos distinctio id enim.</p>
-					</div>
-				</div>
-
-				<div class="row content">
-					<div class="col-md-4" data-aos="fade-right">
-						<img src="assets/img/detail3.png" class="img-fluid" alt="" />
-					</div>
-					<div class="col-md-8 pt-5" data-aos="fade-up">
-						<h3>Sunt consequatur ad ut est nulla consectetur reiciendis animi voluptas</h3>
-						<p>Cupiditate placeat cupiditate placeat est ipsam culpa. Delectus quia minima quod. Sunt saepe odit aut quia voluptatem hic voluptas dolor doloremque.</p>
+					<div class="col-md-8 order-2 order-md-1" data-aos="fade-up">
+						<h3>우리 동네의 공공공간</h3>
+						<p>주민들을 위해 만들어진 동네의 공공공간들을 쉽게 신청하여 사용할 수 있도록 지도 기반의 공간정보 제공</p>
 						<ul>
-							<li><i class="bi bi-check"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
-							<li><i class="bi bi-check"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
-							<li><i class="bi bi-check"></i> Facilis ut et voluptatem aperiam. Autem soluta ad fugiat.</li>
+							<li><i class="bi bi-check"></i> 우리 동네 공공공간을 위치 기반으로 탐색하고 쉽게 예약할 수 있습니다.</li>
 						</ul>
-						<p>Qui consequatur temporibus. Enim et corporis sit sunt harum praesentium suscipit ut voluptatem. Et nihil magni debitis consequatur est.</p>
-						<p>Suscipit enim et. Ut optio esse quidem quam reiciendis esse odit excepturi. Vel dolores rerum soluta explicabo vel fugiat eum non.</p>
+					</div>
+				</div> 
+				-->
+
+				<!-- 
+				# 커뮤니티 숨김처리
+				<div class="row content px-3">
+					<div class="col-md-4" data-aos="fade-right">
+						<img src="assets/img/detail2.png" class="img-fluid" alt="" />
+					</div>
+					<div class="col-md-8" data-aos="fade-up">
+						<h3>지역활동을 위한 동네 커뮤니티</h3>
+						<p>함께하면 더 즐거운 동네 활동을 위해 서로 연결되는 공간입니다. 동네 활동을 함께 만들어 갈 사람을 발견하는 새로운 방법!</p>
+						<ul>
+							<li><i class="bi bi-check"></i> 시민 지원사업, 동네 동아리, 모임을 함께 시작할 동료를 구할 수 있습니다.</li>
+							<li><i class="bi bi-check"></i> 우리가 만드는 지역 축제, 행사, 클래스를 홍보하고 참여자를 구할 수 있습니다.</li>
+						</ul>
 					</div>
 				</div>
+				-->
 			</div>
 		</section>
 
@@ -132,31 +158,31 @@
 		<!-- Contact -->
 		<!-- ======================== -->
 		<section id="contact" class="contact">
-			<div class="container">
+			<div class="container px-3">
 				<div class="section-title" data-aos="fade-up">
 					<h2>Contact</h2>
 					<p>Contact Us</p>
 				</div>
 
-				<div class="row">
+				<div class=".">
 					<div class="col-lg-12" data-aos="fade-right" data-aos-delay="100">
 						<div class="row info">
 							<div class="col-lg-4 address">
 								<i class="bi bi-geo-alt"></i>
 								<h4>Location:</h4>
-								<p>A108 Adam Street, New York, NY 535022</p>
+								<p>서울 특별시 동작구 상도로47아길 44-1, 3층(상도동, 동작구 청년창업지원센터)</p>
 							</div>
 
 							<div class="col-lg-4 email">
 								<i class="bi bi-envelope"></i>
 								<h4>Email:</h4>
-								<p>info@example.com</p>
+								<p>yeon220629@naver.com</p>
 							</div>
 
 							<div class="col-lg-4 phone">
 								<i class="bi bi-phone"></i>
 								<h4>Call:</h4>
-								<p>+1 5589 55488 55s</p>
+								<p>+82 010-8978-7350</p>
 							</div>
 						</div>
 					</div>
